@@ -20,7 +20,7 @@ app.post('/api/fileanalyse',multer().single('upfile'), (req, res)=>{
   res.json({
     name: fname,
     type: ftype,
-    fsize: fsize
+    size: fsize
     });
 })
 
